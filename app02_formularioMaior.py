@@ -44,6 +44,7 @@ class BeeWare1(toga.App):
         main_box.add(box_telefone)
         main_box.add(button)
 
+
         # Criando e exibindo a janela
         self.main_window = toga.MainWindow(title="Meu segundo App")
         self.main_window.content = main_box
